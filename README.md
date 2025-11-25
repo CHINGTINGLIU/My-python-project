@@ -11,7 +11,7 @@ Watch my *[DEMO VIDEOS!](https://www.youtube.com/playlist?app=desktop&list=PL6FW
 *[Weather Master](https://github.com/CHINGTINGLIU/My-python-project/tree/main/My-python-project/weather_master)\
         python semantics & syntax
     
-*[Mydrawing](https://github.com/CHINGTINGLIU/My-python-project/tree/main/My-python-project/MyPhotoshop)\
+*[Mydrawing](https://github.com/CHINGTINGLIU/My-python-project/tree/main/My-python-project/my_drawing)\
         Object-Oriented Programming
     
 *[Pedestrian Removing Application](https://github.com/CHINGTINGLIU/My-python-project/tree/main/My-python-project/Pedestrian_Removing_Application)\
