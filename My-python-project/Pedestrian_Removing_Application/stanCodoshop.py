@@ -68,15 +68,15 @@ def get_best_pixel(pixels):
     dist_list = []
 
     for pixel in pixels:
-        dist = get_pixel_dist(pixel, *avg)     # function裡面可以不只有一個input
+        dist = get_pixel_dist(pixel, *avg)     
         dist_list.append((pixel, dist))
 
     best_pixel = min(dist_list, key=lambda ele: ele[1])
     return best_pixel[0]
 
 
-def solve(images):  # 去loop每一個坐標
-    #
+def solve(images):  
+    
     """
     Given a list of image objects, compute and display a Ghost solution image
     based on these images. There will be at least 3 images and they will all
@@ -85,27 +85,27 @@ def solve(images):  # 去loop每一個坐標
     Input:
         images (List[SimpleImage]): list of images to be processed
     """
-    width = images[0].width   # 開啟img
+    width = images[0].width   
     height = images[0].height
-    result = SimpleImage.blank(width, height)    # 空白影像
+    result = SimpleImage.blank(width, height)    
 
-    # ----- YOUR CODE STARTS HERE ----- #
+    
     # Write code to populate image and create the 'ghost' effect
 
-    for y in range(height):    # 已經開啟img，直接寫不用加img
+    for y in range(height):    
         for x in range(width):
             pixels = []
             for image in images:
-                # for pixel in image:    不能這樣寫 (1)沒有位置的資訊 (2)把一張圖片的所有pixel跑完就沒了
+                
                 pixel = image.get_pixel(x, y)
                 pixels.append(pixel)
             best = get_best_pixel(pixels)
             result_pixel = result.get_pixel(x, y)
-            result_pixel.red = best.red      # result不能直接點
+            result_pixel.red = best.red      
             result_pixel.green = best.green
             result_pixel.blue = best.blue
 
-    # ----- YOUR CODE ENDS HERE ----- #
+    
 
     print("Displaying image!")
     result.show()
