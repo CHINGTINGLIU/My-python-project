@@ -17,7 +17,7 @@ Watch my *[DEMO VIDEOS!](https://www.youtube.com/playlist?app=desktop&list=PL6FW
 *[Pedestrian Removing Application](https://github.com/CHINGTINGLIU/My-python-project/blob/main/My-python-project/Pedestrian_Removing_Application/stanCodoshop.py)\
         image processing
     
-*[Breakout Game](https://github.com/CHINGTINGLIU/My-python-project/tree/main/My-python-project/breakout)\
+*[Breakout Game](https://github.com/CHINGTINGLIU/My-python-project/blob/main/My-python-project/breakout/breakout.py)\
         animation & game designing
     
 *[Name Popularity Searching System](https://github.com/CHINGTINGLIU/My-python-project/blob/main/My-python-project/Name_Popularity_Searching_System/babygraphics.py)\
