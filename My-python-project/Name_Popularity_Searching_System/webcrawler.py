@@ -38,7 +38,7 @@ def main():
         html = driver.page_source
         soup = BeautifulSoup(html, 'html.parser')
 
-        # ----- Write your code below this line ----- #
+     
         tags = soup.find_all('td')
         data_list = []
         for tag in tags:
