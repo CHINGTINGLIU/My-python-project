@@ -5,7 +5,7 @@ This repository holds my programming projects done during the period of stanCode
 Watch my *[DEMO VIDEOS!](https://www.youtube.com/playlist?app=desktop&list=PL6FWNwNPGCE56gP3lxhYPLoUbqE_unUiP)*
 
 # Project Source Codes:
-*[Hangman Game](https://github.com/CHINGTINGLIU/My-python-project/tree/main/My-python-project/Hangman_Game)
+*[Hangman Game](https://github.com/CHINGTINGLIU/My-python-project/tree/main/My-python-project/Hangman_Game)\
     python semantics & syntax
     
 *[Weather Master](https://github.com/CHINGTINGLIU/My-python-project/tree/main/My-python-project/Weather_Master)
