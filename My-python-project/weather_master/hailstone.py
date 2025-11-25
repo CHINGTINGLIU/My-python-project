@@ -25,7 +25,7 @@ def main():
             break
         elif odd(n) is True:
             print(str(n) + 'is odd,so I make 3n+1:' + str(3 * n + 1))
-            n = 3 * n + 1        # 應在print完之後將x reassign為3 * x + 1才可以做下一次運算
+            n = 3 * n + 1        
             count += 1
         else:
             print(str(n)+'is even,so I take half:'+str(n//2))
@@ -34,7 +34,7 @@ def main():
     print('It took ' + str(count) + 'steps to reach 1.')
 
 
-def odd(num):      # function的括弧內要傳入num，function的世界裡才有原物料可以製造答案
+def odd(num):      
     """
     odd = True
     even = False
@@ -45,8 +45,6 @@ def odd(num):      # function的括弧內要傳入num，function的世界裡才�
         return False
 
 
-
-# DO NOT EDIT CODE BELOW THIS LINE #
 
 if __name__ == "__main__":
     main()
