@@ -15,5 +15,5 @@ Watch my *[https://www.youtube.com/playlist?app=desktop&list=PL6FWNwNPGCE56gP3lx
     image processing
 *[Breakout Game]
     animation & game designing
-*Name Popularity Searching System[https://github.com/CHINGTINGLIU/My-python-project/tree/main/My-python-project/Name_Popularity_Searching_System]
+*Name Popularity Searching System(https://github.com/CHINGTINGLIU/My-python-project/tree/main/My-python-project/Name_Popularity_Searching_System)
     data structure
