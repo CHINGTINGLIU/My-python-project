@@ -26,7 +26,7 @@ def main():
 
     while True:
         # getter
-        vx = graphics.get_dx()      # 那如果不放在迴圈外的原因是什麼--因為球速會在遊戲過程中改變（碰牆、碰板、碰磚），若放在外面只會讀取一次，後續的反彈就不會更新。
+        vx = graphics.get_dx()      
         vy = graphics.get_dy()
         graphics.ball.move(vx, vy)
         pause(FRAME_RATE)
