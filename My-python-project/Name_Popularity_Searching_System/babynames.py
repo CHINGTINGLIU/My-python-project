@@ -37,7 +37,7 @@ def add_data_for_name(name_data, year, rank, name):
             name_data[name][year] = rank
 
 
-def add_file(name_data, filename):   #
+def add_file(name_data, filename):   
     """
     Reads the information from the specified file and populates the name_data
     dict with the data found in the file.
@@ -55,8 +55,8 @@ def add_file(name_data, filename):   #
         for line in f:
             line = line.strip()
             if first_line is True:
-                first_line = False   # 下一行就不是第一行
-                year = line  # 第一行通常只有年份
+                first_line = False   
+                year = line  
             # if len(line.split(',')) == 1:
             #     year = line
             else:
