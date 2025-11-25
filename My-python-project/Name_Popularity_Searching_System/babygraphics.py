@@ -23,8 +23,8 @@ FILENAMES = [
 CANVAS_WIDTH = 1080
 CANVAS_HEIGHT = 600
 YEARS = [1900, 1910, 1920, 1930, 1940, 1950,
-         1960, 1970, 1980, 1990, 2000, 2010, 2020]    # 不一定只有13個
-GRAPH_MARGIN_SIZE = 20   # 線與視窗保持的距離
+         1960, 1970, 1980, 1990, 2000, 2010, 2020]    
+GRAPH_MARGIN_SIZE = 20   
 COLORS = ['red', 'purple', 'green', 'blue']
 TEXT_DX = 2
 LINE_WIDTH = 2
@@ -58,7 +58,7 @@ def draw_fixed_lines(canvas):
     """
     canvas.delete('all')            # delete all existing lines from the canvas
 
-    # ----- Write your code below this line ----- #
+    
 
     canvas.create_line(GRAPH_MARGIN_SIZE, GRAPH_MARGIN_SIZE, CANVAS_WIDTH-GRAPH_MARGIN_SIZE, GRAPH_MARGIN_SIZE,
                        width=LINE_WIDTH)
@@ -71,7 +71,7 @@ def draw_fixed_lines(canvas):
                            font='times 10')
 
 
-def draw_names(canvas, name_data, lookup_names):   #
+def draw_names(canvas, name_data, lookup_names):   
     """
     Given a dict of baby name data and a list of name, plots
     the historical trend of those names onto the canvas.
@@ -86,16 +86,15 @@ def draw_names(canvas, name_data, lookup_names):   #
     """
     draw_fixed_lines(canvas)        # draw the fixed background grid
 
-    # ----- Write your code below this line ----- #
+   
 
-    # for name in lookup_names: # 每一個人先畫完所有年分再畫下一個
     for i in range(len(lookup_names)):
         name = lookup_names[i]
         color = COLORS[i]
         prev_x = None
         prev_y = None
         for j in range(len(YEARS)):
-            year = str(YEARS[j])  # name_data 的 key 是字串
+            year = str(YEARS[j])  
             x = get_x_coordinate(CANVAS_WIDTH, j)
 
             if year in name_data[name]:
