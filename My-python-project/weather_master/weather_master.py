@@ -27,7 +27,7 @@ def main():
 		maximum = temperature
 		total = temperature
 		days = 1
-		cold = 0                 #多設days&cold 兩個盒子
+		cold = 0                
 		if temperature < 16:
 			cold += 1
 
@@ -49,11 +49,6 @@ def main():
 		print('Average =' + str(total/days))
 		print(str(cold)+'cold day(s)')
 
-# def average():
-# 	temperature = (maximum+minimum)/2
-
-
-# DO NOT EDIT CODE BELOW THIS LINE #
 
 if __name__ == "__main__":
 	main()
