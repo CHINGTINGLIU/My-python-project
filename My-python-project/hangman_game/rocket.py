@@ -29,7 +29,7 @@ def main():
 
 def head():
 
-    total_width = 2 * SIZE + 2  # 跟 belt 的寬度一致
+    total_width = 2 * SIZE + 2 
     for i in range(SIZE):
         wings = "/" * (i + 1) + "\\" * (i + 1)  # /\ 、//\\、///\\\\ ...
         spaces = (total_width - len(wings)) // 2
@@ -68,7 +68,6 @@ def lower():
         print("|")
 
 
-# DO NOT EDIT CODE BELOW THIS LINE #
-
 if __name__ == "__main__":
     main()
+
