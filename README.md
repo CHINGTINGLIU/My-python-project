@@ -8,7 +8,7 @@ Watch my *[DEMO VIDEOS!](https://www.youtube.com/playlist?app=desktop&list=PL6FW
 *[Hangman Game](https://github.com/CHINGTINGLIU/My-python-project/tree/main/My-python-project/hangman_game)\
         python semantics & syntax
     
-*[Weather Master](https://github.com/CHINGTINGLIU/My-python-project/tree/main/My-python-project/Weather_Master)\
+*[Weather Master](https://github.com/CHINGTINGLIU/My-python-project/tree/main/My-python-project/weather_master)\
         python semantics & syntax
     
 *[MyPhotoshop](https://github.com/CHINGTINGLIU/My-python-project/tree/main/My-python-project/MyPhotoshop)\
