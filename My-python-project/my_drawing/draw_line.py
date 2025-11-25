@@ -43,8 +43,9 @@ def draw(mouse):
         window.remove(circle)
         line = GLine(start_x, start_y, mouse.x, mouse.y)
         window.add(line)
-        can_line = False   # 關起來
+        can_line = False   
 
 
 if __name__ == "__main__":
     main()
+
