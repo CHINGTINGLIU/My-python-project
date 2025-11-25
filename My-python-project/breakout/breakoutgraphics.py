@@ -49,7 +49,7 @@ class BreakoutGraphics:
         # Center a filled ball in the graphical window
         self.ball = GOval(ball_radius * 2, ball_radius * 2)
         self.ball.filled = True
-        self.window.add(self.ball, x=(self.window.width - self.ball.width)/2,     # 視窗中間
+        self.window.add(self.ball, x=(self.window.width - self.ball.width)/2,     
                         y=(self.window.height - self.ball.height)/2)
         # Default initial velocity for the ball
         self.__dx = 0
@@ -82,12 +82,12 @@ class BreakoutGraphics:
                                 y=BRICK_OFFSET+(BRICK_HEIGHT+BRICK_SPACING)*i)
 
     def paddle_move(self, event):
-        if event.x <= self.paddle.width/2:    # 直接釘在0
+        if event.x <= self.paddle.width/2:   
             self.paddle.x = 0
-        elif event.x >= self.window.width-self.paddle.width/2:   # 釘在最右邊
+        elif event.x >= self.window.width-self.paddle.width/2:   
             self.paddle.x = self.window.width-self.paddle.width
         else:
-            self.paddle.x = event.x - self.paddle.width/2    # 自由移動
+            self.paddle.x = event.x - self.paddle.width/2    
 
     def handle_click(self, event):
         if self.__dx == 0 and self.__dy == 0:
@@ -95,13 +95,13 @@ class BreakoutGraphics:
                 self.started = True
                 self.set_ball_velocity()
 
-    def set_ball_velocity(self):   # 設定球的速度
+    def set_ball_velocity(self):   
         self.__dx = random.randint(1, MAX_X_SPEED)
         if random.random() > 0.5:
             self.__dx = -self.__dx
         self.__dy = INITIAL_Y_SPEED
 
-    def reset_ball(self):   #
+    def reset_ball(self):   
         self.ball.x = (self.window.width - self.ball.width) / 2
         self.ball.y = (self.window.height - self.ball.height) / 2
         self.__dx = 0
@@ -132,7 +132,7 @@ class BreakoutGraphics:
 
     # setter
     def set_dx(self):
-        self.__dx *= -1    # 整個檔案的dx都會被改變(都看得到
+        self.__dx *= -1    
 
     def set_dy(self):
         self.__dy *= -1
