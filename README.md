@@ -2,18 +2,18 @@
 Hello there!\
 This repository holds my programming projects done during the period of stanCode SC101 course.
 
-Watch my *[DEMO VIDEOS!]*https://www.youtube.com/playlist?app=desktop&list=PL6FWNwNPGCE56gP3lxhYPLoUbqE_unUiP
+Watch my *[DEMO VIDEOS!https://www.youtube.com/playlist?app=desktop&list=PL6FWNwNPGCE56gP3lxhYPLoUbqE_unUiP
 
 # Project Source Codes:
 *[Hangman Game]
-python semantics & syntax
+    python semantics & syntax
 *[Weather Master]
-python semantics & syntax
+    python semantics & syntax
 *[MyPhotoshop]
-image processing
+    image processing
 *[Pedestrian Removing Application]
-image processing
+    image processing
 *[Breakout Game]
-animation & game designing
+    animation & game designing
 *[Name Popularity Searching System]
-data structure
+    data structure
