@@ -41,7 +41,5 @@ def new_sequence(num):
     return second_half + first_half
 
 
-# DO NOT EDIT CODE BELOW THIS LINE #
-
 if __name__ == '__main__':
     main()
