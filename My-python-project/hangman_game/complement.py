@@ -44,7 +44,6 @@ def build_complement(string):
         return ans
 
 
-# DO NOT EDIT CODE BELOW THIS LINE #
 
 if __name__ == '__main__':
     main()
