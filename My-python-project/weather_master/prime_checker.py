@@ -34,13 +34,12 @@ def is_prime(n):
 	:param n: int >1
 	: False-->not a prime num; True--->is a prime number
 	"""
-	for i in range(2, n):  # loop 2 to 自己-1 (上限不包含，1一定是因數，所以2另外處理）
+	for i in range(2, n):  
 		if n % i == 0:
 			return False
 	return True
 
 
-# DO NOT EDIT CODE BELOW THIS LINE #
 
 if __name__ == "__main__":
 	main()
