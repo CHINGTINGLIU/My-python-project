@@ -20,5 +20,5 @@ Watch my *[DEMO VIDEOS!](https://www.youtube.com/playlist?app=desktop&list=PL6FW
 *[Breakout Game](https://github.com/CHINGTINGLIU/My-python-project/tree/main/My-python-project/breakout)\
         animation & game designing
     
-*[Name Popularity Searching System](https://github.com/CHINGTINGLIU/My-python-project/tree/main/My-python-project/Name_Popularity_Searching_System)\
+*[Name Popularity Searching System](https://github.com/CHINGTINGLIU/My-python-project/blob/main/My-python-project/Name_Popularity_Searching_System/babygraphics.py)\
         data structure
